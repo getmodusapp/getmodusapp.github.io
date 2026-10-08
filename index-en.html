@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modus: Digital Wardrobe · Support & Contact</title>
+    <style>
+        :root {
+            --bg-color: #FAF6F0;
+            --surface-color: #FFFFFF;
+            --primary-text: #2C1E16;
+            --secondary-text: #7C6757;
+            --chestnut: #8B4513;
+            --border-color: #E8DCCF;
+            --card-shadow: 0 10px 30px rgba(44, 30, 22, 0.05);
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1A1512;
+                --surface-color: #241D18;
+                --primary-text: #F5EFEB;
+                --secondary-text: #BBA99B;
+                --chestnut: #C8956A;
+                --border-color: #382E27;
+                --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            }
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--primary-text);
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .logo {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 42px;
+            font-weight: bold;
+            letter-spacing: 6px;
+            color: var(--primary-text);
+            margin-bottom: 8px;
+        }
+        .tagline {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--secondary-text);
+        }
+        .card {
+            background-color: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 32px;
+            margin-bottom: 24px;
+            box-shadow: var(--card-shadow);
+        }
+        h2 {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--primary-text);
+        }
+        p {
+            color: var(--secondary-text);
+            margin-bottom: 14px;
+            font-size: 15px;
+        }
+        .faq-item {
+            border-bottom: 1px solid var(--border-color);
+            padding: 18px 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .faq-q {
+            font-weight: 600;
+            font-size: 16px;
+            color: var(--primary-text);
+            margin-bottom: 6px;
+        }
+        .contact-box {
+            background: linear-gradient(135deg, rgba(200, 149, 106, 0.12), rgba(139, 69, 19, 0.05));
+            border-radius: 16px;
+            padding: 24px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-box a {
+            display: inline-block;
+            margin-top: 10px;
+            background-color: var(--primary-text);
+            color: var(--bg-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            padding: 12px 28px;
+            border-radius: 30px;
+            letter-spacing: 0.5px;
+            transition: opacity 0.2s;
+        }
+        .contact-box a:hover {
+            opacity: 0.85;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 13px;
+            color: var(--secondary-text);
+        }
+        footer a {
+            color: var(--chestnut);
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">MODUS</div>
+            <div class="tagline">Digital Wardrobe · Smart Style Assistant</div>
+            <p style="font-size: 13px; margin-top: 8px;"><a href="index.html" style="color: var(--chestnut);">Türkçe</a></p>
+        </header>
+
+        <section class="card">
+            <h2>Support & Contact</h2>
+            <p>Thank you for using Modus. For any question, feedback or technical issue, you can contact the developer directly.</p>
+            <div class="contact-box">
+                <p style="font-weight: 600; color: var(--primary-text); margin-bottom: 4px;">Developer Support Email</p>
+                <p style="margin-bottom: 12px;">muhammedyusuf1356@gmail.com</p>
+                <a href="mailto:muhammedyusuf1356@gmail.com?subject=Modus%20Support">Send Us an Email</a>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-q">How do I add my clothes?</div>
+                <div class="faq-a"><p>After signing in with Apple, tap "Add Item" in the Wardrobe tab to take a photo, pick one or several from your library, or paste a store product link. You can also choose Modus from the Share menu in Safari or a shopping app. The background is removed on your device with Apple Vision. Some stores don't share the product image in link previews; in that case, take a screenshot of the product and add it as a photo.</p></div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">Where are my data and photos stored?</div>
+                <div class="faq-a"><p>Modus has no servers of its own. Your wardrobe is stored on your device and in the private area of your own iCloud account; the developer cannot see your data. When you sign in on another iPhone with the same Apple Account, your wardrobe syncs automatically. See the Privacy Policy for details.</p></div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">How do I delete my account and all my data?</div>
+                <div class="faq-a"><p>Use "Delete Account & All Content" at the bottom of the Profile tab to permanently delete all wardrobe items, outfits and photos from your device and from iCloud.</p></div>
+            </div>
+        </section>
+
+        <p style="font-size: 12px; text-align: center; color: var(--secondary-text); margin-top: 24px;">Weather data by <a href="https://open-meteo.com/" style="color: var(--chestnut);">Open-Meteo.com</a> (CC BY 4.0). Modus is not affiliated with any brand or store.</p>
+
+        <footer>
+            <p>© 2026 Modus. All rights reserved.</p>
+            <p style="margin-top: 8px;">
+                <a href="privacy-en.html">Privacy Policy</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
