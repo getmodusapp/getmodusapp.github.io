@@ -1,0 +1,36 @@
+[
+  {
+    "id": "trend_2026_10",
+    "title": "Ekim Trendi: Kahve Tonları",
+    "subtitle": "ÖRNEK — bu dosyayı her ay kendi cümlelerinle güncelle",
+    "badge": "Bu Ayın Trendi",
+    "colors": {
+      "Acı Kahve / Espresso": 1.0,
+      "Kahverengi": 0.95,
+      "Karamel / Taba": 0.9,
+      "Kemik / Ekru": 0.85,
+      "Bordo": 0.7,
+      "Lacivert": 0.6
+    },
+    "keywords": [
+      "süet",
+      "triko",
+      "kadife",
+      "hırka",
+      "deri ceket",
+      "bot",
+      "geniş",
+      "pileli"
+    ],
+    "avoidKeywords": [
+      "şort",
+      "sandalet"
+    ],
+    "formality": [
+      2,
+      4
+    ],
+    "patternTolerance": 0.4,
+    "layering": true
+  }
+]
